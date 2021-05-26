@@ -1,0 +1,36 @@
+a:hover {
+  color: #fb42cd;
+}
+
+@media (min-width: 992px) {
+  .portfolio-item:hover .caption {
+    background-color: rgba(251,66,205,0.43);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+}
+
+.footer {
+  background: linear-gradient(#fb42cd, #00c2bc 10%, rgb(0,194,188) 91%, #687bdd 100%);
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #1d809f;
+  transition: background-color .15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+  text-decoration: none;
+}
+
+.text-muted {
+  color: #fb42cd !important;
+}
+
+.text-secondary {
+  color: #fb42cd !important;
+}
+
